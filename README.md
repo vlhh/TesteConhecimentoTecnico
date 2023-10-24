@@ -24,8 +24,11 @@ ATENÇÃO: Somente pessoas com idade de 16 a 69 anos e com peso acima de 50 Kg p
 |O+               |A+, B+, O+ e AB+                  |O+ e O                           |
 
 ## Instalação
-Após clonar o projeto usar npm install na pasta raiz
+Após clonar o projeto usar mvn install. Configurar o user, senha da base de dados com o mysql, no arquivo src/main/resources/application.properties. <br />
+Quando estiver tudo configurado, usar o comando mvn spring-boot:run
 
 ## Requisitos
-node: 14.21.3 <br />
-npm: 6.14.18
+java: 19 <br />
+mysql: 8.1 <br />
+maven: 3 <br />
+spring-boot: 3.0
